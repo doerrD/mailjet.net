@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9A563A3-6844-43BD-B00B-9B52FBAB9C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1991A863-9306-4864-A710-641E88E8073B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MailJet", "src\MailJet\MailJet.xproj", "{5F53CC13-3BCA-4F41-974B-72A98D808A65}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MailJeft.Tests", "test\MailJeft.Tests\MailJeft.Tests.xproj", "{3091DF6E-7FAD-4A07-859F-0FAB8774754A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7B91C17A-9388-471E-9202-D055B671B0FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F53CC13-3BCA-4F41-974B-72A98D808A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F53CC13-3BCA-4F41-974B-72A98D808A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F53CC13-3BCA-4F41-974B-72A98D808A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F53CC13-3BCA-4F41-974B-72A98D808A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3091DF6E-7FAD-4A07-859F-0FAB8774754A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3091DF6E-7FAD-4A07-859F-0FAB8774754A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3091DF6E-7FAD-4A07-859F-0FAB8774754A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3091DF6E-7FAD-4A07-859F-0FAB8774754A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F53CC13-3BCA-4F41-974B-72A98D808A65} = {E9A563A3-6844-43BD-B00B-9B52FBAB9C68}
+		{3091DF6E-7FAD-4A07-859F-0FAB8774754A} = {7B91C17A-9388-471E-9202-D055B671B0FC}
+	EndGlobalSection
+EndGlobal
